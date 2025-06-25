@@ -26,9 +26,6 @@ void moverBispo(int casas) {
 }
     
     
-
-
-
 int main(){
 
     printf("***MOVIMENTAÇÃO TORRE*** \n");
@@ -42,6 +39,15 @@ moverRainha(8);
     printf("***MOVIMENTAÇÃO BISPO*** \n");
 moverBispo(5);
     printf("\n");
+
+    printf("***MOVIMENTAÇÃO CAVALO** \n");
+
+    for ( int l = 0, m = 0; l < 2 && m > 1; l++,m++)
+    {
+        printf("Cima %d \n", m);
+        printf("Direita %d \n", l);
+    }
+    
 
 return 0;
 }
