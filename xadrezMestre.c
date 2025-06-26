@@ -41,17 +41,17 @@ moverBispo(5);
     printf("\n");
 
     printf("***MOVIMENTAÇÃO CAVALO** \n");
+  
 
-    for ( int l = 0, m = 0; l < 2 || m > 1;)
-    {
-     if (l < 2) {
-        printf("Cima %d \n", l);
-        l++;
-    } else if (m < 1) {
-        printf("Direita %d \n", m);
-        m++;
+    for (int cima = 0, direita = 0; cima < 2 || direita < 1; cima++) {
+        if (cima < 2) {
+            printf("Cima %d\n", cima);
+        } else {
+            printf("Direita %d\n", direita);
+            direita++;
+        }
     }
-    
-
+  
+  
 return 0;
 }
